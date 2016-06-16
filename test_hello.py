@@ -5,7 +5,7 @@ def test_printinfo():
 	print "...Negative Number..."
 
 def test_printinfo_a():
-	assert printinfo(1)
+	assert printinfo(-100)
 	print "...Positive Number.."
 
 
