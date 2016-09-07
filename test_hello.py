@@ -10,7 +10,7 @@ def test_compare_b():
 	d=2
 	assert c==d
 	
-def test_compare_b():
+def test_compare_c():
 	e=3
 	f=3
 	assert e==f
