@@ -1,12 +1,11 @@
-from hello import printinfo
+#! /usr/bin/python
+# -*- coding: utf-8 -*- 
+def test_compare_a():
+	a=1
+	b=1
+	assert a==b
 
-def test_printinfo():
-	assert printinfo(-1)
-	print "...Negative Number..."
-
-def test_printinfo_a():
-	assert printinfo(-100)
-	print "...Positive Number.."
-
-
-
+def test_compare_b():
+	c=1
+	d=2
+	assert c==d
