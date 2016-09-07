@@ -6,6 +6,11 @@ def test_compare_a():
 	assert a==b
 
 def test_compare_b():
-	c=1
+	c=2
 	d=2
 	assert c==d
+	
+def test_compare_b():
+	e=3
+	f=3
+	assert e==f
